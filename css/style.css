@@ -14,7 +14,7 @@
     background-color: #3A546D;
 }
 
-.container-wrap{
+.container_wrap{
     width: 80%;
     margin: 0 auto;
 }
@@ -25,5 +25,9 @@
 .container_wrap img{
     width: 150px;
     height: 150px;
+}
+.container_wrap_70{
+    width: 70%;
+    margin: 0 auto;
 }
 
