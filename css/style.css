@@ -18,3 +18,12 @@
     width: 80%;
     margin: 0 auto;
 }
+
+.debug-height{
+    height: 600px;
+}
+.container_wrap img{
+    width: 150px;
+    height: 150px;
+}
+
