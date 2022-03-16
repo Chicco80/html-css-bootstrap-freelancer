@@ -11,64 +11,121 @@
     <title>Bootstrap-freelancer</title>
 </head>
 <body>
+    <!-- header -->
     <header class="bg_blu">
-        <div class="container-fluid">
-            <div class="row ">
-                <div class="col debug ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg_blu">
+            <div class="container-fluid">
+              <a class="navbar-brand pt-4" href="#">bootstrap start</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end pt-4" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">about</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="#">contact me</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <section id="jumbo" class="bg_green">
+             <img class="mx-auto d-block"src="img/avatar.svg" alt="avatar">
+             <h1 class="text-uppercase pt-2">start bootstrap</h1>
+             <div class="star">
+               <i class="fa-solid fa-star"></i>
+             </div>
+             <p class=" text-uppercase">graphic artist-web designer-illustrator</p>
+       </section>
+        <section id="portfolio">
+         <div class="container">
+            <h2 class="text-uppercase">portfolio</h2>
+            <div class="star color">
+                <i class="fa-solid fa-star"></i>
+            </div>
+        
+        <div class="row gy-3">
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="img_cont">
+                    <img src="img/cabin.png" alt="cabin" class="img-fluid">
+                    <div class="layover">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                       
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="img_cont">
+                    <img src="img/cake.png" alt="cake"class="img-fluid">
+                    <div class="layover">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="img_cont">
+                    <img src="img/circus.png" alt="circus"class="img-fluid">
+                    <div class="layover">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="img_cont">
+                    <img src="img/game.png" alt="game"class="img-fluid">
+                    <div class="layover">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="img_cont">
+                    <img src="img/safe.png" alt="safe"class="img-fluid">
+                    <div class="layover">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="img_cont">
+                    <img src="img/submarine.png" alt="submarine"class="img-fluid">
+                    <div class="layover">
+                        <i class="fas fa-plus"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-    <main>
-        <section id="jumbo" 
-            <div class="container-fluid  bg_green">
-                <div class="container_wrap debug">
-                         <img class="mx-auto d-block"src="img/avatar.svg" alt="avatar">
-            </div>
-            <div>
-                <h1 class="text-center text-uppercase">start bootstrap</h1>
-                <i class="fa-solid fa-star text-center d-block"></i>
-                <h5 class="text-center text-uppercase">graphic artist-web designer-illustrator</h5>
-            </div>
-       </section>
-       <section id="portfolio">
-           <div class="container-fluid">
-               <div>
-                   <h2 class="text-center text-uppercase">portfolio</h2>
-                   <i class="fa-solid fa-star text-center d-block"></i>
-               </div>
-           </div>
-           <div class="container-fluid">
-            <div class="container_wrap ">
-               <div class="row justify-content-center">
-                   <div class="col-12 col-md-6 col-lg-4 debug">
-                       
-                   </div>
-                   <div class="col-12 col-md-6 col-lg-4 debug">s</div>
-                   <div class="col-12 col-md-6 col-lg-4 debug">s</div>
-                   <div class="col-12 col-md-6 col-lg-4 debug">s</div>
-                   <div class="col-12 col-md-6 col-lg-4 debug">s</div>
-                   <div class="col-12 col-md-6 col-lg-4 debug">s</div>
-               </div>
-            </div>
-           </div>
+    </div>
+            
+           
        </section>
        <section id="about">
            <div class="container-fluid  bg_green">
                 <h2 class="text-center text-uppercase">about</h2>
-                <i class="fa-solid fa-star text-center d-block"></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
                 <div class="container_wrap_70">
                     <div class="row">
-                        <div class="col-12 col-md-6 col-lg-6 debug">
+                        <div class="col-12 col-md-6 col-lg-6 ">
                             <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus repudiandae ea totam! Debitis, sapiente. Amet repellendus a, provident vero rem velit sit adipisci fugiat voluptatem, sed commodi quidem? Reprehenderit, explicabo.</p>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-6 debug">
+                        <div class="col-12 col-md-6 col-lg-6">
                             <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi assumenda quo impedit repellat non! Eveniet, voluptatum reprehenderit? Nobis, dolorum quos accusamus deleniti ipsum iure laudantium commodi libero provident, quam qui.</p>
                         </div>
-                        <div class=" row checkbox">
-                            <div class="col text-center">
-                            <button class="btn btn-sm debug ">download</button>
+                        <div class="download">
+                            <button type="button" class="btn btn-outline mt-2 mb-2"><i class="fa-solid fa-download px-1"></i>download</button>
                         </div>
+                      
                         </div>
                     </div>
                 </div>
@@ -77,21 +134,23 @@
        </section>
        <section id="contact">
            <div class="container-fluid">
-            <h2 class="text-center text-uppercase">contact-me</h2>
-            <i class="fa-solid fa-star text-center d-block"></i>
+            <h2 class=" text-uppercase">contact me</h2>
+            <div class="star color">
+                <i class="fa-solid fa-star"></i>
+              </div>
            </div>
            <div class="container_wrap_70">
             <div class="mb-3 mt-3">
                 <P>nome</P>
-                <input type="text" class="form-control"  placeholder="name" name="name">
+                <input type="text" class="form-control" name="name">
               </div>
               <div class="mb-3">
                 <p>email-adress</p>
-                <input type="email" class="form-control"  placeholder="email adress " name="email">
+                <input type="email" class="form-control"name="email">
               </div>
               <div class="mb-3">
                 <p>phone number</p>
-                <input type="text" class="form-control"  placeholder="phone number" name="phone">
+                <input type="text" class="form-control"name="phone">
               </div>
               <div class="mb-3">
               <p>message</p>
@@ -102,7 +161,7 @@
            </div>
 
        </section>
-       <footer class="debug mt-4">
+       <!-- <footer class="debug mt-4">
         <div class="container-fluid bg_grey">
             <div class="container_wrap ">
                 <div class="row ">
@@ -116,11 +175,11 @@
             copyright your website 2019
         </div>
 
-       </footer>
+       </footer> -->
 
 
 </main>
-   
+                                                                                                                                                        
        
    
 </body>
