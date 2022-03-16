@@ -13,6 +13,10 @@
 .bg_grey{
     background-color: #3A546D;
 }
+.font_color{
+    color: #1ABC9C;
+
+}
 
 .container_wrap{
     width: 80%;
@@ -117,15 +121,34 @@ footer{
     border-color: white;
 }
 
-footer{
-    height: 200px;
+
+
+
+.footer_bottom{
+    /* height:80px ;
+    padding */
+    padding: 50px;
 }
-
-
-footer .container_wrap{
-    height: 120px;
+.icons i{
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border-color: white;
+    margin-bottom: 20px;
+    
+}
+.icons i .fa-facebook-f{
+    padding:20px;
 }
 .footer_bottom{
-    height:80px ;
+    font-size: 12px;
 }
+
+footer .row{
+    padding: 50px 0;
+}
+footer .footer_bottom{
+    padding: 30px;
+}
+
 
