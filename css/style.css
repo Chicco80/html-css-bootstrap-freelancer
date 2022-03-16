@@ -120,13 +120,29 @@ footer{
     color: white;
     border-color: white;
 }
+#contact p{
+    text-transform: capitalize;
+}
+#contact input{
+    border: none;
+    border-bottom: 1px solid grey;
+    
+}
+#contact textarea{
+    border: none;
+    
+    border-bottom: 1px solid grey;
+}
+#contact button{
+    background-color: #1ABC9C;
+    color: white;
+  
+}
 
 
 
 
 .footer_bottom{
-    /* height:80px ;
-    padding */
     padding: 50px;
 }
 .icons i{
