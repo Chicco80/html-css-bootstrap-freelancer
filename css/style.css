@@ -80,6 +80,8 @@ header{
 
 .img_cont{
     position: relative;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .img_cont:hover .layover{
     background-color: rgba(0, 0, 0, 0.5);
